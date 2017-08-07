@@ -1,0 +1,413 @@
+
+bowen<221> runway
+Enter:
+  How many runways do you want to use? (currently 1 or 2):  2
+  Time for a plane to land (in minutes):  2
+  Time for a plane to takeOff (in minutes):  3
+  Landing rate (planes per hour):  10
+  Takeoff rate (planes per hour):  12
+  How long to run the simulation (in minutes):  120
+There are two runways available
+one of the runway may shut down due to the bad condition
+  How long will it take to reopen a closed runway ? 30
+
+Time = 0
+Plane 1000 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+0 in takeoff queue2
+Taking off from runway1: Plane 1000
+Time = 1
+Plane 1001 wants to take off; added to the takeoff queue2;
+1 in takeoff queue1
+1 in takeoff queue2
+Taking off from runway2: Plane 1001
+Time = 2
+Time = 3
+Takeoff complete from Runway1; 0 in takeOff queue1
+Time = 4
+Takeoff complete from Runway2; 0 in takeOff queue2
+Time = 5
+Plane 1002 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Landing from runway1: Plane 1002
+Time = 6
+Time = 7
+Landing complete from Runway1; 0 in landing queue1
+Time = 8
+Time = 9
+Plane 1003 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Plane 1004 wants to take off; added to the takeoff queue2;
+0 in takeoff queue1
+1 in takeoff queue2
+Landing from runway1: Plane 1003
+Taking off from runway2: Plane 1004
+Time = 10
+Time = 11
+Landing complete from Runway1; 0 in landing queue1
+Time = 12
+Takeoff complete from Runway2; 0 in takeOff queue2
+Plane 1005 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Landing from runway1: Plane 1005
+Time = 13
+Time = 14
+Landing complete from Runway1; 0 in landing queue1
+Plane 1006 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Landing from runway1: Plane 1006
+Time = 15
+Plane 1007 wants to land; added to the landing queue2;
+1 in landing queue1
+1 in landing queue2
+Landing from runway2: Plane 1007
+Time = 16
+Landing complete from Runway1; 0 in landing queue1
+Time = 17
+Landing complete from Runway2; 0 in landing queue2
+Runway 2 will shut down after this current landing or takeoff.
+Landing & takeoff queues in runway 2 will be merged to runway 1
+Time = 18
+Runway 2 has been shut down. Queues will be merged to runway 1
+Planes before shut down: 
+   Planes in landingQ1: 
+   Planes in landingQ2: 
+   Planes in takeOffQ1: 
+   Planes in takeOffQ2: 
+Planes after shut down: 
+   Planes in landingQ1: 
+   Planes in landingQ2: 
+   Planes in takeOffQ1: 
+   Planes in takeOffQ2: 
+Time = 19
+Time = 20
+Time = 21
+Plane 1008 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+Taking off from runway1: Plane 1008
+Time = 22
+Plane 1009 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+Time = 23
+Time = 24
+Takeoff complete from Runway1; 1 in takeOff queue1
+Plane 1010 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+Taking off from runway1: Plane 1009
+Time = 25
+Time = 26
+Time = 27
+Takeoff complete from Runway1; 1 in takeOff queue1
+Taking off from runway1: Plane 1010
+Time = 28
+Time = 29
+Time = 30
+Takeoff complete from Runway1; 0 in takeOff queue1
+Time = 31
+Time = 32
+Time = 33
+Time = 34
+Plane 1011 wants to land; added to the landing queue1;
+1 in landing queue1
+Landing from runway1: Plane 1011
+Time = 35
+Time = 36
+Landing complete from Runway1; 0 in landing queue1
+Plane 1012 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+Taking off from runway1: Plane 1012
+Time = 37
+Time = 38
+Runway2 will reopen in 10 minutes
+Plane 1013 wants to land; added to the landing queue1;
+1 in landing queue1
+Time = 39
+Takeoff complete from Runway1; 0 in takeOff queue1
+Runway2 will reopen in 9 minutes
+Landing from runway1: Plane 1013
+Time = 40
+Runway2 will reopen in 8 minutes
+Plane 1014 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+Time = 41
+Landing complete from Runway1; 0 in landing queue1
+Runway2 will reopen in 7 minutes
+Taking off from runway1: Plane 1014
+Time = 42
+Runway2 will reopen in 6 minutes
+Time = 43
+Runway2 will reopen in 5 minutes
+Plane 1015 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+Time = 44
+Takeoff complete from Runway1; 1 in takeOff queue1
+Runway2 will reopen in 4 minutes
+Plane 1016 wants to land; added to the landing queue1;
+1 in landing queue1
+Landing from runway1: Plane 1016
+Time = 45
+Runway2 will reopen in 3 minutes
+Time = 46
+Landing complete from Runway1; 0 in landing queue1
+Runway2 will reopen in 2 minutes
+Taking off from runway1: Plane 1015
+Time = 47
+Runway2 will reopen in 1 minutes
+Both Runways are running now
+Plane 1017 wants to take off; added to the takeoff queue2;
+1 in takeoff queue1
+1 in takeoff queue2
+Taking off from runway2: Plane 1017
+Time = 48
+Plane 1018 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+1 in takeoff queue2
+Time = 49
+Takeoff complete from Runway1; 1 in takeOff queue1
+Plane 1019 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+1 in takeoff queue2
+Taking off from runway1: Plane 1018
+Time = 50
+Takeoff complete from Runway2; 0 in takeOff queue2
+Time = 51
+Time = 52
+Takeoff complete from Runway1; 1 in takeOff queue1
+Plane 1020 wants to land; added to the landing queue2;
+0 in landing queue1
+1 in landing queue2
+Taking off from runway1: Plane 1019
+Landing from runway2: Plane 1020
+Time = 53
+Plane 1021 wants to land; added to the landing queue1;
+1 in landing queue1
+1 in landing queue2
+Plane 1022 wants to take off; added to the takeoff queue2;
+1 in takeoff queue1
+1 in takeoff queue2
+Time = 54
+Landing complete from Runway2; 0 in landing queue2
+Runway 2 will shut down after this current landing or takeoff.
+Landing & takeoff queues in runway 2 will be merged to runway 1
+Taking off from runway2: Plane 1022
+Time = 55
+Takeoff complete from Runway1; 0 in takeOff queue1
+Landing from runway1: Plane 1021
+Time = 56
+Time = 57
+Landing complete from Runway1; 0 in landing queue1
+Takeoff complete from Runway2; 0 in takeOff queue2
+Runway 2 has been shut down. Queues will be merged to runway 1
+Planes before shut down: 
+   Planes in landingQ1: 
+   Planes in landingQ2: 
+   Planes in takeOffQ1: 
+   Planes in takeOffQ2: 
+Planes after shut down: 
+   Planes in landingQ1: 
+   Planes in landingQ2: 
+   Planes in takeOffQ1: 
+   Planes in takeOffQ2: 
+Plane 1023 wants to land; added to the landing queue1;
+1 in landing queue1
+Landing from runway1: Plane 1023
+Time = 58
+Time = 59
+Landing complete from Runway1; 0 in landing queue1
+Time = 60
+Time = 61
+Time = 62
+Plane 1024 wants to land; added to the landing queue1;
+1 in landing queue1
+Landing from runway1: Plane 1024
+Time = 63
+Time = 64
+Landing complete from Runway1; 0 in landing queue1
+Time = 65
+Plane 1025 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+Taking off from runway1: Plane 1025
+Time = 66
+Time = 67
+Plane 1026 wants to land; added to the landing queue1;
+1 in landing queue1
+Time = 68
+Takeoff complete from Runway1; 0 in takeOff queue1
+Plane 1027 wants to land; added to the landing queue1;
+2 in landing queue1
+Landing from runway1: Plane 1026
+Time = 69
+Plane 1028 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+Time = 70
+Landing complete from Runway1; 1 in landing queue1
+Plane 1029 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+Landing from runway1: Plane 1027
+Time = 71
+Time = 72
+Landing complete from Runway1; 0 in landing queue1
+Taking off from runway1: Plane 1028
+Time = 73
+Time = 74
+Plane 1030 wants to land; added to the landing queue1;
+1 in landing queue1
+Plane 1031 wants to take off; added to the takeoff queue1;
+3 in takeoff queue1
+Time = 75
+Takeoff complete from Runway1; 2 in takeOff queue1
+Landing from runway1: Plane 1030
+Time = 76
+Time = 77
+Landing complete from Runway1; 0 in landing queue1
+Runway2 will reopen in 10 minutes
+Taking off from runway1: Plane 1029
+Time = 78
+Runway2 will reopen in 9 minutes
+Time = 79
+Runway2 will reopen in 8 minutes
+Plane 1032 wants to land; added to the landing queue1;
+1 in landing queue1
+Time = 80
+Takeoff complete from Runway1; 1 in takeOff queue1
+Runway2 will reopen in 7 minutes
+Landing from runway1: Plane 1032
+Time = 81
+Runway2 will reopen in 6 minutes
+Plane 1033 wants to land; added to the landing queue1;
+2 in landing queue1
+Time = 82
+Landing complete from Runway1; 1 in landing queue1
+Runway2 will reopen in 5 minutes
+Plane 1034 wants to land; added to the landing queue1;
+2 in landing queue1
+Landing from runway1: Plane 1033
+Time = 83
+Runway2 will reopen in 4 minutes
+Plane 1035 wants to take off; added to the takeoff queue1;
+2 in takeoff queue1
+Time = 84
+Landing complete from Runway1; 1 in landing queue1
+Runway2 will reopen in 3 minutes
+Plane 1036 wants to take off; added to the takeoff queue1;
+3 in takeoff queue1
+Landing from runway1: Plane 1034
+Time = 85
+Runway2 will reopen in 2 minutes
+Time = 86
+Landing complete from Runway1; 0 in landing queue1
+Runway2 will reopen in 1 minutes
+Both Runways are running now
+Taking off from runway1: Plane 1031
+Time = 87
+Time = 88
+Plane 1037 wants to take off; added to the takeoff queue2;
+3 in takeoff queue1
+1 in takeoff queue2
+Taking off from runway2: Plane 1037
+Time = 89
+Takeoff complete from Runway1; 2 in takeOff queue1
+Taking off from runway1: Plane 1035
+Time = 90
+Plane 1038 wants to take off; added to the takeoff queue2;
+2 in takeoff queue1
+2 in takeoff queue2
+Time = 91
+Takeoff complete from Runway2; 1 in takeOff queue2
+Taking off from runway2: Plane 1038
+Time = 92
+Takeoff complete from Runway1; 1 in takeOff queue1
+Plane 1039 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Landing from runway1: Plane 1039
+Time = 93
+Time = 94
+Landing complete from Runway1; 0 in landing queue1
+Takeoff complete from Runway2; 0 in takeOff queue2
+Taking off from runway1: Plane 1036
+Time = 95
+Time = 96
+Plane 1040 wants to take off; added to the takeoff queue2;
+1 in takeoff queue1
+1 in takeoff queue2
+Taking off from runway2: Plane 1040
+Time = 97
+Takeoff complete from Runway1; 0 in takeOff queue1
+Time = 98
+Plane 1041 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Landing from runway1: Plane 1041
+Time = 99
+Takeoff complete from Runway2; 0 in takeOff queue2
+Time = 100
+Landing complete from Runway1; 0 in landing queue1
+Plane 1042 wants to land; added to the landing queue1;
+1 in landing queue1
+0 in landing queue2
+Landing from runway1: Plane 1042
+Time = 101
+Time = 102
+Landing complete from Runway1; 0 in landing queue1
+Time = 103
+Time = 104
+Plane 1043 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+0 in takeoff queue2
+Taking off from runway1: Plane 1043
+Time = 105
+Time = 106
+Time = 107
+Takeoff complete from Runway1; 0 in takeOff queue1
+Time = 108
+Time = 109
+Plane 1044 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+0 in takeoff queue2
+Taking off from runway1: Plane 1044
+Time = 110
+Runway 2 will shut down after this current landing or takeoff.
+Landing & takeoff queues in runway 2 will be merged to runway 1
+Plane 1045 wants to land; added to the landing queue1;
+1 in landing queue1
+Time = 111
+Runway 2 has been shut down. Queues will be merged to runway 1
+Planes before shut down: 
+   Planes in landingQ1: 1045  
+   Planes in landingQ2: 
+   Planes in takeOffQ1: 1044  
+   Planes in takeOffQ2: 
+Planes after shut down: 
+   Planes in landingQ1: 1045  
+   Planes in landingQ2: 
+   Planes in takeOffQ1: 1044  
+   Planes in takeOffQ2: 
+Time = 112
+Takeoff complete from Runway1; 0 in takeOff queue1
+Landing from runway1: Plane 1045
+Time = 113
+Time = 114
+Landing complete from Runway1; 0 in landing queue1
+Time = 115
+Time = 116
+Time = 117
+Time = 118
+Plane 1046 wants to take off; added to the takeoff queue1;
+1 in takeoff queue1
+Taking off from runway1: Plane 1046
+Time = 119
+Time = 120
+No new takeoffs or landings will be generated.
+Time = 121
+Takeoff complete from Runway1; 0 in takeOff queue1
+Maximum number of planes in landing queue was: 2
+Average minutes spent waiting to land:  0.590909
+Maximum number of planes in takeoff queue was: 3
+Average minutes spent waiting to take off:  2.12
+
+Process finished with exit code 255

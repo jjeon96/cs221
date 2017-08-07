@@ -1,0 +1,43 @@
+Queue created.  Empty? true
+How many elements to add to the queue? 5
+What value do you want to move front ?
+300
+Contents of queue q1 (via  print):
+300  100  200  400  500  
+
+Contents of queue q3 (via  print):
+110  220  330  440  550  660  770  880  990  1100  
+
+Contents of queue q1 (via  print):
+110  220  300  100  200  330  400  440  500  550  660  770  880  990  1100  
+
+Contents of queue q3 (via  print):
+
+
+Contents of queue q2 after q2 = q1 (via  print):
+110  220  300  100  200  330  400  440  500  550  660  770  880  990  1100  
+
+Queue q2 empty? false
+Front value in q2: 110
+Remove front -- Queue contents: 220  300  100  200  330  400  440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 300  100  200  330  400  440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 100  200  330  400  440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 200  330  400  440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 330  400  440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 400  440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 440  500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 500  550  660  770  880  990  1100  
+Remove front -- Queue contents: 550  660  770  880  990  1100  
+Remove front -- Queue contents: 660  770  880  990  1100  
+Remove front -- Queue contents: 770  880  990  1100  
+Remove front -- Queue contents: 880  990  1100  
+Remove front -- Queue contents: 990  1100  
+Remove front -- Queue contents: 1100  
+Remove front -- Queue contents: 
+Queue q2 empty? true
+Front value in q2?
+0
+*** Queue is empty -- can't remove a value ***
+Trying to remove front of q2: 
+
+Process finished with exit code 0
